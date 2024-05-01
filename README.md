@@ -1,38 +1,30 @@
-# jiwu0118_9103_tut4
- first repository
+**Week8 Quiz_design research**
+##### jiwu0118_9103_tut4
+## Part 1: Imaging Technique Inspiration
+This is an imaging technique that inspires me. Because I am very interested in the **Wheel of fortune** of Pacita Abad in the major project. This example also gives me a feeling of turning the wheel of fate. It changes different colors and shapes over time, gradually spreading from the center of the image to the surroundings. 
 
- just to change something 
+I think there is a lot of room for innovation in this kind of dynamic change. It's like the echo of sound traveling into a cave, which can be combined with sound to create a dynamic change related to audio.
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+![An image of ](assets/inspiration01.jpg)
+![An image of ](assets/inspiration02.jpg) 
+![An image of ](assets/inspiration03.jpg)
 
-**Bold text** or __Bold text__
+>_Screenshots of [Shader Art Coding](https://www.shadertoy.com/view/mtyGWy)_
 
-*Italics text* or _Italics text_
 
-- Number 1
-- Number 2
-  - subitem 2.1
-  - subitem 2.2
-- Number 3
+## Part 2: Coding Technique Exploration
 
-1. first item
-2. second item
+In order to realize the dynamic effect that changes with audio, I found the coding technology of **audio visualization** on the Internet. I hope the different circles on the wheel of fortune can be like a record player. Its color and surrounding form can be changed according to the frequency and sound of music.
 
-[Link text](https://www.google.com)
+This code includes 5 parts: 
+- Load the audio
+- Waveform analysis
+- Wrap the waveform in a circle
+- Create the particles
+- Beat detection
+  
 
-[Don't click it](https://www.bing.com/images/search?view=detailV2&ccid=STZb8m3D&id=3950C0DE62DFB44F093D38D08AAAECF0430EE5B4&thid=OIP.STZb8m3D5cIJlyZeXOWLggHaHa&mediaurl=https%3a%2f%2fpic3.zhimg.com%2fv2-d9a82770243bb1674ea420674850d536_r.jpg%3fsource%3d1940ef5c&exph=960&expw=960&q=%e8%a1%a8%e6%83%85%e5%8c%85&simid=608008490439360467&FORM=IRPRST&ck=004899F6B9F96BCCCFB446E4215D2894&selectedIndex=2&itb=0)
 
-![An image of ](assets/IMG_5557.jpg)
+![An image of ](assets/coding_tech.jpg)
 
-```
-代码块一枚
-```
-
-Add a for loop to `draw()`
-
-> This is a blockquote
+Coding Reference: https://www.youtube.com/watch?v=uk96O7N1Yo0
